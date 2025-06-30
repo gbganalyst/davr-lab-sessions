@@ -1,0 +1,29 @@
+{
+    "id": "23F9FA4E",
+    "path": "C:/Users/admin/Desktop/intro-to-quarto/quarto-slide.qmd",
+    "project_path": "quarto-slide.qmd",
+    "type": "quarto_markdown",
+    "hash": "4207761245",
+    "contents": "",
+    "dirty": false,
+    "created": 1747909713370.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "chunk_output_type": "console",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "22,0",
+        "scrollLine": "20",
+        "docOutlineVisible": "0",
+        "docOutlineSize": "72"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1747923381,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1747923381223,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,68 @@
+In this experiment we will be using the nycflights13 package to learn about relational data. nycflights13 contains four tibbles (that is- a modern data frame) that are related to the flights.
+
+`flights`: A On-time data for all flights that departed NYC
+
+`airlines`: A dataframe that lets you look up the full carrier name from its abbreviated code.
+
+`airports`: A data frame that gives information about each airport, identified by the faa airport code:
+
+`planes`: A data frame that gives information about each plane, identified by its tailnum.
+
+`weather` gives the weather at each NYC airport for each hour.
+
+# Relationship Key
+
+For nycflights13:
+
+- flights connects to planes via a single variable, tailnum.
+
+- flights connects to airlines through the carrier variable.
+
+- flights connects to airports in two ways: via the origin and dest variables.
+
+- flights connects to weather via origin (the location), and year, month, day and hour (the time).
+
+Because the flights data contains 19 variables, let's select the variables that will work with:
+
+```{r}
+flights2 <- flights %>% 
+  select(year, time_hour, origin, dest, tailnum, carrier)
+
+flights2
+```
+
+There are four types of join, but there’s one that you will use almost all of the time and it is the left_join():
+
+## The Left Join
+
+Imagine you want to add the full airline name to the flights2 data. You can combine the airlines and flights2 data frames with left_join():
+
+
+```{r}
+flights2 %>%
+  left_join(airlines, by = "carrier")
+```
+
+Or we could find out the temperature and wind speed when each plane departed:
+
+First let's select useful variables in the weather data:
+
+```{r}
+weather <- weather |> select(origin, time_hour, temp, wind_speed)
+```
+g```{r}
+flights2 |> 
+  left_join(weather)
+```
+
+Or what size of plane was flying:
+
+
+```{r}
+flights2 |> 
+  left_join(planes |> select(tailnum, type, engines, seats), by = "tailnum")
+```
+
+inner_join(), right_join(), full_join() have the same interface as left_join(). The difference is which rows they keep: left join keeps all the rows in x, the right join keeps all rows in y, the full join keeps all rows in either x or y, and the inner join only keeps rows that occur in both x and y.
+
+

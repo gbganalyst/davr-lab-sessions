@@ -1,0 +1,211 @@
+---
+title: "‎"
+author: "‎"
+format:
+  pptx:
+    slide-level: 2
+    reference-doc: ../template.pptx
+editor_options: 
+  chunk_output_type: console
+execute:
+  engine: knitr
+  echo: true
+---
+
+```{r}
+#| echo: false
+
+library("tidyverse")
+
+```
+
+## Data visualization with ggplot2
+
+![](images/data-vis.png)
+
+## Data Visualization
+
+Data visualization refers to the graphical representation of data by visual elements such as charts, Infographics, and maps to understand the data. 
+
+![](images/viz.png)
+
+::: note
+There is a story behind every data and data visualization brings them to life.
+:::
+
+## Importance of Data Visualization
+
+- It is a powerful way to explore data with presentable results
+  
+- It displays the summary of your data at a glance
+  
+- Charts make it easier to identify patterns and trends
+  
+- It helps to identify areas that need attention or improvement.
+
+::: note
+It can be hard for the audience to grasp the true meaning of the findings without data visualization.
+:::
+
+## Before you visualize your data
+
+Presentation of data and information is not just about picking any data visualization design. Matching data to the right visualization begins by answering the following five (5) key questions:
+
+- What relationship am I trying to understand between my data sets?
+
+- Do I want to understand the distribution of data and look for outliers?
+
+- Am I looking to compare multiple values or looking to analyze a single value over time?
+
+- Am I interested in analyzing trends in my data sets?
+
+- Is this visualization an important part of my overarching data story?
+
+## Data Visualization Techniques
+
+**Name**: Bar chart
+
+**Visual dimensions**:
+
+- length/count
+
+- category
+
+- color
+
+![](images/P1.png)
+
+## Data Visualization Techniques
+
+**Name**: Histogram
+
+**Visual dimensions**:
+
+- bin limits
+
+- count/length
+
+- color
+
+![](images/P2.png)
+
+## Data Visualization Techniques
+
+**Name**: Scatter plot
+
+**Visual dimensions**:
+
+- x position
+
+- y position
+
+- shape
+
+- color
+
+- size
+
+![](images/P3.png)
+
+## Data Visualization Techniques
+
+**Name**: Pie/Doughnut chart	
+
+If your goal is to show how each part contributes to the whole amount being reported, a pie or doughnut chart will probably be a better choice.
+
+**Visual dimensions**:
+
+- color
+
+![](images/P41.png)
+
+![](images/P4.png)
+
+## Data Visualization Techniques
+
+**Name**: Box and Whisker Plot
+
+**Visual dimensions**:
+
+- x axis
+
+- y axis
+
+![](images/P5.png)
+
+## Data Visualization Techniques
+
+**Name**: Line chart
+
+**Visual dimensions**:
+
+- x position
+
+- y position
+
+- shape
+
+- color
+
+- size
+
+![](images/P6.png)
+
+## Data visualization using ggplot2 
+
+R has several systems for making graphs, but ggplot2 is one of the most elegant and most versatile. `ggplot2` is based on the grammar of graphics, the idea that you can build every graph from the same components: 
+
+- `Data`: The raw material of your visualization
+
+- `Aesthetics`: The mappings of your data to the visualization. For example, mapping the variable age to the y-axis and gender to the x-axis of a chart
+
+- `Layers`: A visualization requires at least one layer to render the data and aesthetics to the screen. These layers typically take the form of a ggplot2 geom function- for example, geom_point() for a scatter plot. 
+
+With ggplot2, you can do more faster by learning one system and applying it in many places.
+
+## Data visualization using ggplot2 
+
+Aesthetic mappings describe how variables in the data are mapped to visual properties (aesthetics) of geoms: 
+
+:::columns
+:::column
+`x`: variable on the x-axis 
+
+`y`: variable on the y-axis
+
+`fill`: fill color for shapes
+ 
+`color`: color points and lines
+:::
+:::column
+`size`: size of the points
+ 
+`shape`: shape of the points
+
+`group`: identifies series of points with a grouping variable
+
+`facet`: create small multiples
+:::
+:::
+
+## Lab session
+
+![](images/lab.png)
+
+## Summary
+
+This tutorial introduced you to pipe operator (`%>%`) in `R` programming. 
+
+In this tutorial, you have learnt that:
+
+1. there are many dplyr verbs and they include `select()`, `mutate()`, `filter()`, `group_by()`, and `summarise()`.
+
+2. you can use any visualization technique to plot data with the ggplot2 package.
+
+3. you can choose from different layers such as `geom_point()`, `geom_col()`, `geom_histogram()`, `geom_boxplot()`, etc. 
+
+# The end
+
+---
+::: note
+:::

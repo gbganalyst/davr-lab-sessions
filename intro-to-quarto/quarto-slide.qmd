@@ -1,0 +1,125 @@
+---
+title: "‎"
+author: "‎"
+format:
+  pptx:
+    incremental: true 
+    slide-level: 2
+    reference-doc: template.pptx
+editor_options: 
+  chunk_output_type: console
+execute:
+  engine: knitr
+  echo: true
+---
+
+# R Programming Fundamentals
+
+## Learning Objectives
+
+The goal of this section is to understand the history of R programming, explore its key milestones, and learn how to install and set up R and RStudio for effective programming.
+
+::: notes
+Before we begin this session, let me quickly show you what you are about to learn.
+:::
+
+## Table of content
+
+-   History and Overview of R
+
+-   R for Data Science
+
+-   R as a Calculator
+
+-   Atomic Data Type and Variable Assignment in R
+
+-   Basic Data Structure in R
+
+-   Write your own function in R
+
+
+# History of R
+
+## R Programming
+
+R is a programming language and free software environment for statistical computations, data cleaning, data analysis, and graphical representation of data. The R language is widely used among statisticians and data miners for developing statistical software and data analysis.
+
+In the year `2020`, the R community celebrated the 20th year of R version `1.0.0`. The current version of R programming is `4.1.0` with the nickname *Camp Pontanezen*.
+
+## History of R
+
+R has released so many versions and you can see their list by using:
+
+```{r}
+#| eval: false
+
+rversions::r_versions()
+```
+
+Please note that you will need to install `rversions` package before `rversions::r_versions()` can work.
+
+## Why R programming?
+
+![](images/learnr.png)
+
+## Companies that use R for Analytics
+
+**Companies** that use R for Analytics:
+
+![](images/Company_useR.png)
+
+**Source**: <https://www.quora.com/Which-companies-use-R>
+
+## R programming interface
+
+![](images/R.png)
+
+## RStudio
+
+RStudio is an integrated development environment (IDE) for R programming. RStudio makes programming easier and friendly in R.
+
+## RStudio
+
+![](images/Latest_R_studio.png)
+
+# Installing R and RStudio
+
+## Install R
+
+You can install R on any operating system (OS).
+
+**For Windows** :
+
+-   Download R for Windows OS from <https://cran.r-project.org/bin/windows/base/>
+
+-   Open the `.exe` file and install it.
+
+## Install R
+
+You can install R on any operating system (OS).
+
+**For Mac** :
+
+Download R for Mac via the <https://cran.r-project.org/bin/macosx/> page. Please make sure you click on the first `.pkg` link,
+
+-   Open the `.pkg` file and install it.
+
+## Install R
+
+You can install R on any operating system (OS).
+
+**For Linux**:
+
+For complete R System installation in Linux, follow the instructions provided on the CRAN website. <https://cran.r-project.org/>.
+
+For Ubuntu with Apt-get installed, execute `sudo apt-get install r-base` in the terminal.
+
+## Install RStudio
+
+You can install RStudio via
+
+<https://www.rstudio.com/products/rstudio/download/#download>
+
+Choose the appropriate installer file for your operating system, download it, and then run it to install RStudio.
+
+##

@@ -1,0 +1,72 @@
+---
+title: "Introduction to Quarto"
+author: "Ezekiel Ogundepo"
+format: pdf
+date: "May 22, 2025"
+editor_options: 
+  chunk_output_type: console
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+```{r}
+
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+```{r}
+#| eval: false
+
+plot(iris)
+
+```
+
+```{r}
+#| include: false
+library(tidyverse)
+library(janitor)
+```
+
+I am beginning to learn **Quarto**.
+
+1.  First
+
+    1.  First-one
+
+    2.  Frist-second
+
+2.  Second
+
+3.  Third
+
+[![I love an Elephant](images/elephant.png){fig-alt="This is an image of an elephant" #fig-elephant}](github.com/gbganalyst)
+
+
+The @fig-elephant is showing an example of an animal.
+
+| State | Capital |
+|-------|---------|
+| Lagos | Ikeja   |
+| Oyo   | Ibadan  |
+
+: List of States in Nigeria {#tbl-state}
+
+The @tbl-state above is showing the best two states in Nigeria.

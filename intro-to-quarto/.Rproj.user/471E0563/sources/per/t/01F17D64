@@ -1,0 +1,29 @@
+{
+    "id": "01F17D64",
+    "path": "C:/Users/admin/Desktop/intro-to-quarto/intro-to-quarto.qmd",
+    "project_path": "intro-to-quarto.qmd",
+    "type": "quarto_markdown",
+    "hash": "1858684979",
+    "contents": "",
+    "dirty": false,
+    "created": 1747908838945.0,
+    "source_on_save": true,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "297,18",
+        "scrollLine": "294",
+        "docOutlineVisible": "0",
+        "docOutlineSize": "159",
+        "chunk_output_type": "console"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1747927812,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1747927812745,
+    "read_only": false,
+    "read_only_alternatives": []
+}
