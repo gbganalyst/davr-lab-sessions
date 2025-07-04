@@ -2,8 +2,6 @@
 
 Materials that accompany the **Data Analysis with R** video series.  Each folder is a self-contained lab with Quarto documents, sample data, and code you can run locally.
 
-
-
 ## Folder map
 
 | Folder | What you will practise |
@@ -32,7 +30,7 @@ Folder names taken from the current repository tree. :contentReference[oaicite:0
    | ---------- | ----------------------------------- | -------------------------------------------------------------------------- |
    | R ≥ 4.0    | Runs the lab code                   | [https://cran.r-project.org](https://cran.r-project.org)                   |
    | Quarto CLI | Renders the `.qmd` notebooks        | [https://quarto.org/docs/get-started](https://quarto.org/docs/get-started) |
-   | R packages | tidyverse, janitor, patchwork, etc. | Run `source("install.R")` in each lab or use the script in the repo root   |
+   | R packages | tidyverse, janitor, patchwork, etc. | Install the required packages in each RStudio project lab, or use the script in the root of the repository|
 
 
 ## Contributing
@@ -52,4 +50,3 @@ Unless stated otherwise in a sub-folder, all code is released under the MIT Lice
 ## Acknowledgments
 
 Big thanks to the R community for feedback during recording and to every learner who spots and reports an error. Your suggestions keep the labs improving.
-
