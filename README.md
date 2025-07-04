@@ -22,7 +22,7 @@ Folder names taken from the current repository tree. :contentReference[oaicite:0
    ```bash
    git clone https://github.com/gbganalyst/davr-lab-sessions.git
    cd davr-lab-sessions
-  ```
+   ```
 
 2. **Install prerequisites**
 
