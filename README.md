@@ -4,15 +4,15 @@ Materials that accompany the **Data Analysis with R** video series.  Each folder
 
 ## Folder map
 
-| Folder | What you will practise |
-| ------ | ---------------------- |
-| `Data-Analysis` | End-to-end exploratory workflows: importing, wrangling, and quick summaries |
-| `data-viz` | Grammar-of-graphics plots with **ggplot2**, plus polish tips (themes, labels, patchwork) |
-| `intro-to-quarto` | The minimum you need to start authoring with Quarto, including HTML and PDF output |
-| `reproducible-r-viz` | Re-creating published figures in a fully reproducible way |
-| `tidy-data` | Core **tidyverse** verbs for reshaping and joining data |
+| Folder            | What you will practise                                                                 |
+|-------------------|----------------------------------------------------------------------------------------|
+| Data-Analysis      | End-to-end exploratory workflows: importing, wrangling, and quick summaries           |
+| data-viz           | Grammar-of-graphics plots with `ggplot2`, plus polish tips (themes, labels, patchwork) |
+| intro-to-quarto    | The minimum you need to start authoring with Quarto, including HTML and PDF output    |
+| reproducible-r-viz | Re-creating published figures in a fully reproducible way                             |
+| tidy-data          | Core `tidyverse` verbs for reshaping and joining data                               |
+| ezekiel-website    | Create your personal Data Science portfolio site using Quarto (R or Python) and publish it online |
 
-Folder names taken from the current repository tree. :contentReference[oaicite:0]{index=0}
 
 
 ## Quick start
