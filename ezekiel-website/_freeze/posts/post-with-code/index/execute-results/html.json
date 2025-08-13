@@ -1,0 +1,17 @@
+{
+  "hash": "90b50461a733bb714b69b421544a30c6",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Post With Code\"\nauthor: \"Ezekiel Ogundepo\"\ndate: \"August 11, 2025\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\ndescription: \"I am learning quarto blog\"\n---\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

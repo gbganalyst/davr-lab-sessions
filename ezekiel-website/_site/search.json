@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/inferential-statistics/index.html",
+    "href": "posts/inferential-statistics/index.html",
+    "title": "Inferential Statistics",
+    "section": "",
+    "text": "What is statistical hypothesis testing?\nIt is a structured way to use data to decide between two competing claims about a population.\nIf the p value ≤ α, you reject H₀. If the p value &gt; α, you do not reject H₀. You do not “accept” H₀, you simply lack enough evidence against it."
+  },
+  {
+    "objectID": "posts/inferential-statistics/index.html#the-workflow",
+    "href": "posts/inferential-statistics/index.html#the-workflow",
+    "title": "Inferential Statistics",
+    "section": "The workflow",
+    "text": "The workflow\n\nState H₀ and H₁ clearly.\nChoose a test and α based on your question and data type.\nCollect data and check assumptions.\nCompute the test statistic and p value.\nDecide: compare p to α.\nReport the result with plain language, the estimate, a confidence interval, and the effect size if possible."
+  },
+  {
+    "objectID": "posts/inferential-statistics/index.html#example-1.-one-sample-mean",
+    "href": "posts/inferential-statistics/index.html#example-1.-one-sample-mean",
+    "title": "Inferential Statistics",
+    "section": "Example 1. One sample mean",
+    "text": "Example 1. One sample mean\nA factory claims the mean fill is 50 cl.\n\nH₀: μ = 50 cl\nH₁: μ ≠ 50 cl\nSample: n = 36 bottles, mean = 53 cl, sd = 12 cl, α = 0.05\nTest (approximately z or one sample t): \\(z = \\frac{53-50}{12/\\sqrt{36}} = \\frac{3}{2} = 1.5\\) Two sided p value ≈ 0.13\nDecision: p &gt; 0.05, do not reject H₀.\nTeacher’s wording: “With this sample we do not have enough evidence that the true mean differs from 50 cl.”"
+  },
+  {
+    "objectID": "posts/inferential-statistics/index.html#example-2.-two-proportions-ab-test",
+    "href": "posts/inferential-statistics/index.html#example-2.-two-proportions-ab-test",
+    "title": "Inferential Statistics",
+    "section": "Example 2. Two proportions (A/B test)",
+    "text": "Example 2. Two proportions (A/B test)\nYou test two website buttons.\n\nGroup A: 45 conversions out of 300 (15 percent)\nGroup B: 66 conversions out of 300 (22 percent)\nH₀: pA = pB\nH₁: pA ≠ pB\nPooled proportion = 111/600 = 0.185\nStandard error ≈ 0.0317\nDifference = 0.22 − 0.15 = 0.07\n\\(z = 0.07/0.0317 ≈ 2.21\\), two sided p ≈ 0.027\nDecision: p &lt; 0.05, reject H₀.\nInterpretation: “Button B converts significantly better than A by about 7 percentage points.”"
+  },
+  {
+    "objectID": "posts/inferential-statistics/index.html#example-3.-paired-test-before-vs-after",
+    "href": "posts/inferential-statistics/index.html#example-3.-paired-test-before-vs-after",
+    "title": "Inferential Statistics",
+    "section": "Example 3. Paired test (before vs after)",
+    "text": "Example 3. Paired test (before vs after)\nYou measure 12 students’ scores before and after a workshop and compute the differences.\n\nH₀: mean difference = 0\nH₁: mean difference &gt; 0\nUse a paired t test on the differences.\nIf p = 0.01, conclude: “The workshop increased scores on average.”"
+  },
+  {
+    "objectID": "posts/inferential-statistics/index.html#key-ideas-to-remember",
+    "href": "posts/inferential-statistics/index.html#key-ideas-to-remember",
+    "title": "Inferential Statistics",
+    "section": "Key ideas to remember",
+    "text": "Key ideas to remember\n\nType I error: rejecting a true H₀. Rate is α.\nType II error: not rejecting a false H₀. Its complement is power.\nStatistical significance is not practical importance. Always report the estimated effect and a confidence interval.\nChoose the test to match your data: means (t tests, ANOVA), proportions (z test or chi square), counts in tables (chi square or Fisher), relationships (correlation or regression)."
+  },
+  {
+    "objectID": "posts/inferential-statistics/index.html#a-short-reporting-template",
+    "href": "posts/inferential-statistics/index.html#a-short-reporting-template",
+    "title": "Inferential Statistics",
+    "section": "A short reporting template",
+    "text": "A short reporting template\n“Using a two sided t test, the mean score was higher in the treatment group than the control group by 4.2 points, 95 percent CI 1.1 to 7.3, t(58) = 2.70, p = 0.009. This suggests a meaningful improvement.”"
+  },
+  {
+    "objectID": "posts/inferential-statistics/index.html#quick-practice-prompts",
+    "href": "posts/inferential-statistics/index.html#quick-practice-prompts",
+    "title": "Inferential Statistics",
+    "section": "Quick practice prompts",
+    "text": "Quick practice prompts\n\nA coin is flipped 100 times and lands heads 62 times. Test if the coin is fair.\nA new drug aims to reduce average blood pressure by 5 mmHg. Test the claim using a sample of 40 patients.\nTwo ads get click rates of 8 percent and 11 percent on equal samples of 500 views. Test if the rates differ."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ezekiel Ogundepo",
+    "section": "",
+    "text": "Ezekiel Adebayo Ogundepo applies statistics and data science to economics, climate, and health and builds decision tools that move evidence into action. He earned First Class Honours in Statistics from the University of Ilorin, where he worked with Prof. W. B. Yahya, and a Master’s in Mathematical Sciences from AIMS Rwanda, where he worked with Prof. Ernest Fokoué of Rochester Institute of Technology (RIT).\nHe works as Lead Statistician Consultant at Redwire Group on a multidimensional poverty project across the 19 northern states of Nigeria, where he leads sampling and weighting design, oversees field quality assurance, and maintains a reproducible analytics workflow that delivers decision-ready indicators, dashboards, and policy briefs. Previously, he served as Senior Data Analytics Manager at 54gene and implemented robust data management and quality control systems that significantly enhanced research reliability. He worked as a Data Scientist at Data Science Nigeria, led analytics projects for the Bill & Melinda Gates Foundation and the Mastercard Foundation, and organised large AI hackathons that built national capacity.\nHe also serves as a consultant content developer for the 3 Million Technical Talent (3MTT) Deep Tech programme, a national initiative under President Bola Ahmed Tinubu’s Renewed Hope Agenda that aims to build Nigeria’s technical talent backbone. He designs predictive models, builds reproducible pipelines, and maintains open-source software. He created the R packages bulkreadr and forstringr to speed data ingestion and string processing. He is the author of the forthcoming Statistics and Data Analysis with R: A Lab-Based Approach, a practical Quarto book that teaches R through experiments and real data. He also co-edited the Beginners’ Artificial Intelligence & Python Programming Book for primary and junior secondary schools.\nThe R community recognised him as Nigeria’s first RStudio Tidyverse Certified Instructor in October 2020. His awards and fellowships include Mastercard Scholar, Federal Government of Nigeria FSB Scholar, UNLEASH Talent, Heidelberg Laureate Forum Fellow, and Capacity Accelerator Network Fellow with the Global Partnership for Sustainable Development Data. He trains practitioners, advances FAIR and open data practices, and mentors new users of R. He presents and collaborates across Africa and worldwide, including Rwanda, Singapore, Italy, the United Kingdom, Germany, and Uruguay. He focuses on projects that link scientific insight to policy and that show measurable impact."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Inferential Statistics\n\n\n\nStatistical Analysis\n\nHypothesis Statement\n\nViz\n\n\n\n\n\n\n\n\n\nAug 11, 2025\n\n\nEzekiel Ogundepo\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\nI am learning quarto blog\n\n\n\n\n\nAug 11, 2025\n\n\nEzekiel Ogundepo\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  }
+]

@@ -1,0 +1,42 @@
+project:
+  type: website
+
+website:
+  title: "Ezekiel Ogundepo"
+  favicon: "images/logo.png"
+  search: 
+    location: navbar
+    type: textbox
+  page-footer:
+    center: |
+      [Contact Ezekiel Ogundepo](mailto:gbganalyst@gmail.com)
+    left: |
+      Made with [Quarto](https://quarto.org/)
+    right: |
+      [Github Code Repo](https://github.com/gbganalyst/ezekiel-website)
+    background: "#2780e3"
+
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: resume.qmd
+        text: Resume
+
+    right:
+      - icon: github
+        href: https://github.com/gbganalyst
+      - icon: twitter
+        href: https://x.com/gbganalyst
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: [cosmo, theme_dark_custom.scss]
+    css: styles.css
+
+editor: visual
+

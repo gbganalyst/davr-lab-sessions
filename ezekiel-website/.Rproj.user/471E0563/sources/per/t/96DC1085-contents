@@ -1,0 +1,14 @@
+---
+title: "Post With Code"
+author: "Ezekiel Ogundepo"
+date: "August 11, 2025"
+categories: [news, code, analysis]
+image: "image.jpg"
+description: "I am learning quarto blog"
+---
+
+This is a post with executable code.
+
+```{r}
+1 + 1
+```

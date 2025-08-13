@@ -1,0 +1,93 @@
+---
+title: "Inferential Statistics"
+author: "Ezekiel Ogundepo"
+date: "August 11, 2025"
+categories: [Statistical Analysis, Hypothesis Statement, Viz]
+image: "stat.jpg"
+---
+
+**What is statistical hypothesis testing?**
+
+It is a structured way to use data to decide between two competing claims about a population.
+
+-   **Null hypothesis (H₀)**: the status quo or no effect.
+-   **Alternative hypothesis (H₁)**: the new claim or an effect exists.
+-   **Significance level (α)**: the mistake rate you accept for wrongly rejecting H₀, often 0.05.
+-   **Test statistic and p value**: numbers computed from your sample that tell you how compatible the data are with H₀.
+
+If the p value ≤ α, you reject H₀. If the p value \> α, you do not reject H₀. You do not “accept” H₀, you simply lack enough evidence against it.
+
+------------------------------------------------------------------------
+
+## The workflow
+
+1.  **State H₀ and H₁** clearly.
+2.  **Choose a test and α** based on your question and data type.
+3.  **Collect data** and check assumptions.
+4.  **Compute the test statistic and p value**.
+5.  **Decide**: compare p to α.
+6.  **Report** the result with plain language, the estimate, a confidence interval, and the effect size if possible.
+
+------------------------------------------------------------------------
+
+## Example 1. One sample mean
+
+A factory claims the mean fill is 50 cl.
+
+-   H₀: μ = 50 cl
+-   H₁: μ ≠ 50 cl
+-   Sample: n = 36 bottles, mean = 53 cl, sd = 12 cl, α = 0.05
+-   Test (approximately z or one sample t): $z = \frac{53-50}{12/\sqrt{36}} = \frac{3}{2} = 1.5$ Two sided p value ≈ 0.13
+-   Decision: p \> 0.05, do not reject H₀.
+-   Teacher’s wording: “With this sample we do not have enough evidence that the true mean differs from 50 cl.”
+
+------------------------------------------------------------------------
+
+## Example 2. Two proportions (A/B test)
+
+You test two website buttons.
+
+-   Group A: 45 conversions out of 300 (15 percent)
+-   Group B: 66 conversions out of 300 (22 percent)
+-   H₀: pA = pB
+-   H₁: pA ≠ pB
+-   Pooled proportion = 111/600 = 0.185
+-   Standard error ≈ 0.0317
+-   Difference = 0.22 − 0.15 = 0.07
+-   $z = 0.07/0.0317 ≈ 2.21$, two sided p ≈ 0.027
+-   Decision: p \< 0.05, reject H₀.
+-   Interpretation: “Button B converts significantly better than A by about 7 percentage points.”
+
+------------------------------------------------------------------------
+
+## Example 3. Paired test (before vs after)
+
+You measure 12 students’ scores before and after a workshop and compute the differences.
+
+-   H₀: mean difference = 0
+-   H₁: mean difference \> 0
+-   Use a **paired t test** on the differences.
+-   If p = 0.01, conclude: “The workshop increased scores on average.”
+
+------------------------------------------------------------------------
+
+## Key ideas to remember
+
+-   **Type I error**: rejecting a true H₀. Rate is α.
+-   **Type II error**: not rejecting a false H₀. Its complement is **power**.
+-   **Statistical significance is not practical importance**. Always report the estimated effect and a confidence interval.
+-   Choose the test to match your data: means (t tests, ANOVA), proportions (z test or chi square), counts in tables (chi square or Fisher), relationships (correlation or regression).
+
+------------------------------------------------------------------------
+
+## A short reporting template
+
+“Using a two sided t test, the mean score was higher in the treatment group than the control group by 4.2 points, 95 percent CI 1.1 to 7.3, t(58) = 2.70, p = 0.009. This suggests a meaningful improvement.”
+
+------------------------------------------------------------------------
+
+## Quick practice prompts
+
+1.  A coin is flipped 100 times and lands heads 62 times. Test if the coin is fair.
+2.  A new drug aims to reduce average blood pressure by 5 mmHg. Test the claim using a sample of 40 patients.
+3.  Two ads get click rates of 8 percent and 11 percent on equal samples of 500 views. Test if the rates differ.

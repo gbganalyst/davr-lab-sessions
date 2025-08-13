@@ -1,0 +1,23 @@
+{
+  "index.qmd": {
+    "index.html": "a55fb26f"
+  },
+  "about.qmd": {
+    "about.html": "54a3c3d0"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "d151f533"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "a51ca3ef"
+  },
+  "projects.qmd": {
+    "projects.html": "ae662170"
+  },
+  "resume.qmd": {
+    "resume.html": "fd2d9024"
+  },
+  "posts/inferential-statistics/index.qmd": {
+    "index.html": "96c29603"
+  }
+}

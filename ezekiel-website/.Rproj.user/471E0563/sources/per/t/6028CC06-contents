@@ -1,0 +1,33 @@
+---
+title: "Ezekiel Ogundepo"
+image: images/photoshoot.jpg
+about:
+  template: trestles
+  image-width: 20em
+  image-shape: round
+  
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/gbganalyst
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/gbganalyst/
+    - icon: github
+      text: Github
+      href: https://github.com/gbganalyst/
+    - icon: envelope
+      text: Contact me
+      href: mailto:gbganalyst@gmail.com
+    - icon: youtube
+      text: Youtube
+      href: https://www.youtube.com/@gbganalytics
+---
+
+Ezekiel Adebayo Ogundepo applies statistics and data science to economics, climate, and health and builds decision tools that move evidence into action. He earned First Class Honours in Statistics from the University of Ilorin, where he worked with Prof. W. B. Yahya, and a Master’s in Mathematical Sciences from AIMS Rwanda, where he worked with Prof. Ernest Fokoué of Rochester Institute of Technology (RIT). 
+
+He works as Lead Statistician Consultant at Redwire Group on a multidimensional poverty project across the 19 northern states of Nigeria, where he leads sampling and weighting design, oversees field quality assurance, and maintains a reproducible analytics workflow that delivers decision-ready indicators, dashboards, and policy briefs. Previously, he served as Senior Data Analytics Manager at 54gene and implemented robust data management and quality control systems that significantly enhanced research reliability. He worked as a Data Scientist at Data Science Nigeria, led analytics projects for the Bill & Melinda Gates Foundation and the Mastercard Foundation, and organised large AI hackathons that built national capacity. 
+
+He also serves as a consultant content developer for the 3 Million Technical Talent (3MTT) Deep Tech programme, a national initiative under President Bola Ahmed Tinubu’s Renewed Hope Agenda that aims to build Nigeria’s technical talent backbone. He designs predictive models, builds reproducible pipelines, and maintains open-source software. He created the R packages bulkreadr and forstringr to speed data ingestion and string processing. He is the author of the forthcoming Statistics and Data Analysis with R: A Lab-Based Approach, a practical Quarto book that teaches R through experiments and real data. He also co-edited the Beginners’ Artificial Intelligence & Python Programming Book for primary and junior secondary schools. 
+
+The R community recognised him as Nigeria’s first RStudio Tidyverse Certified Instructor in October 2020. His awards and fellowships include Mastercard Scholar, Federal Government of Nigeria FSB Scholar, UNLEASH Talent, Heidelberg Laureate Forum Fellow, and Capacity Accelerator Network Fellow with the Global Partnership for Sustainable Development Data. He trains practitioners, advances FAIR and open data practices, and mentors new users of R. He presents and collaborates across Africa and worldwide, including Rwanda, Singapore, Italy, the United Kingdom, Germany, and Uruguay. He focuses on projects that link scientific insight to policy and that show measurable impact.
